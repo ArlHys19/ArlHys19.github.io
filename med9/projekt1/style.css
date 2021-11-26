@@ -1,0 +1,108 @@
+#lol {
+	font-size: 69px;
+	color: orange;
+	text-align: center;
+	background-color: white;
+	margin: 15px;
+
+}
+
+html {
+	background-color: #f7e5ab;
+}
+
+#p {
+	font-size: 35px;
+	background-color: white;
+	color: orange;
+
+}
+
+
+.i {
+	background-color: white;
+	color: orange;
+	margin: 20px;
+	border: 20px;
+	
+}
+
+img {
+	width: 150px;
+	border: 10px solid cyan;
+	float: right;
+	margin: 10px;
+	border-radius: 25px;
+}
+
+p{
+	font-size: 20px;
+}
+
+#o {
+	background-color: white;
+	color: orange;
+	margin: 20px;
+
+
+}
+
+ul{
+	font-size: 22px;
+	color: darkorange;
+}
+
+
+a {
+	margin: 20px;
+	border: 20px;
+	display: inline-block;
+	background-color: white;
+}
+
+#io {
+	width: 110px;
+	
+	float: left;
+	width: 150px;
+	border: 10px solid cyan;
+
+	margin: 10px;
+	margin-bottom: 40px;
+	border-radius: 25px;
+}
+
+	
+	
+
+	
+
+
+#pp {
+	font-size: 26px;
+	color: #2c5ac7;
+	background-color: #d9f9fa;
+	border: 3px solid blue;
+	border-radius: 20px;
+
+
+}
+
+
+#k {
+	width: 350px;
+	border: 10px double blue;
+	float: left;
+	margin: 10px;
+	border-radius: 25px;
+
+
+
+}
+
+
+ol {
+	font-size: 22px;
+	color: darkorange;
+
+}
