@@ -1,0 +1,16 @@
+#W {
+
+background: rgb(115,219,49);
+background: linear-gradient(90deg, rgba(115,219,49,1) 23%, rgba(45,62,244,1) 90%);
+}
+
+
+#P {
+	background: rgb(115,219,49);
+background: linear-gradient(180deg, rgba(115,219,49,1) 0%, rgba(93,170,168,1) 27%, rgba(160,155,75,1) 56%, rgba(209,113,57,1) 73%, rgba(45,62,244,1) 100%);
+}
+
+#lol {
+	background: rgb(66,214,208);
+background: radial-gradient(circle, rgba(66,214,208,1) 22%, rgba(227,216,34,1) 46%, rgba(18,35,219,1) 100%);
+}
