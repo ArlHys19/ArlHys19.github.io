@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Source+Code+Pro:wght@300&display=swap');
+
+
+body {
+
+background: rgb(35,72,203);
+background: radial-gradient(circle, rgba(35,72,203,0.8267682072829132) 27%, rgba(35,185,80,0.9023984593837535) 72%, rgba(231,22,51,1) 99%);}
+
+
+
+h1 {
+	font-family: "Libre Baskerville";
+	font-size: 55px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Dancing Script";
+	font-size: 45px;
+	text-align: right;
+
+}
+
+
+
+p {
+ font-family: "Source Code Pro";
+ column-count: 3;
+ line-height: 1.5;
+ margin: 50px;
+ text-align: justify;
+ color: white;
+
+}
+
+.signature {
+	font-family: Dancing Script;
+	font-size: 50px;
+}
