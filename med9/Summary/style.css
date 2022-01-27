@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Sedgwick+Ave&family=Source+Code+Pro:wght@300&display=swap');
+body {
+	background: rgb(226,203,109);
+background: linear-gradient(90deg, rgba(226,203,109,0.7987570028011204) 39%, rgba(79,205,71,0.7847514005602241) 79%);
+}
+
+div{
+	color: white;
+	background: white;
+	size:  200px;
+}
+
+h1 {
+	font-size: 69px;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+
+
+}
+
+
+img {
+	width: 350px;
+	border: 13px dotted cyan ;
+	float: right;
+	border-radius: 15px;
+
+}
+
+h2{
+	background-color: lightblue;
+	font-size: 50px;
+	padding: 20px;
+	display: inline-block;
+}
+
+p {
+	font-family: Sedgwick Ave;
+	font-size: 24px;
+}
+
+
+a {
+	font-family: Sedgwick Ave;
+margin: 20px;
+font-size: 37px;
+
+}
+
+ol {
+font-family: Sedgwick Ave;
+margin: 50px;
+font-size: 37px;
+border: 30px;
+color: blue;
+
+}
