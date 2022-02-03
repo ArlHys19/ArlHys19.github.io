@@ -1,0 +1,58 @@
+#k {
+	height: 400px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-evenly ;
+	align-items: stretch ;
+}
+
+
+p {
+	font-size: 25px;
+	padding: 20px;
+	background-color: red;
+	margin: 10px;
+}
+
+#w {
+	height: 200px;
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	border: solid green 3px;
+	margin: 20px;
+	border-radius: 6px;
+}
+
+#p {
+	font-size: 25px;
+	background-color: lightgreen;
+
+
+
+}
+
+
+
+
+#lol {
+   
+   height: 300px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-evenly ;
+	align-items: flex-end;
+	border: solid green 3px;
+	margin: 20px;
+	border-radius: 6px;
+     
+
+
+}
+
+img {
+	width: 160px;
+}
+
+
