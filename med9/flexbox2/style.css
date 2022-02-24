@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Redressed&display=swap');
+
+body {
+	margin: 0;
+}
+
+
+header {
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(123.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+
+}
+
+
+header h1 {
+	padding: 30px;
+	background-color: rgba(237, 92, 114, 0.6);
+	border-radius: 20px;
+	color: white;
+	font-family: Redressed;
+
+}
+
+
+main {
+	padding: 100px;
+	background: rgb(250,116,152);
+background: linear-gradient(0deg, rgba(250,116,152,1) 0%, rgba(238,119,81,1) 63%, rgba(226,173,113,1) 100%);
+}
+
+main p{
+	size: 20px;
+	color: white;
+	column-count: 2;
+	font-family: Dancing Script;
+}
+
+
+
+#info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 90px;
+	background: rgb(226,173,113);
+background: linear-gradient(0deg, rgba(226,173,113,1) 0%, rgba(238,119,81,1) 63%, rgba(250,116,152,1) 100%);
+color: white;
+font-family: Redressed;
+size: 30px;
+}
+
+
+
+
+
+
+footer {
+	height: 450px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(1234.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+
+footer p {
+	padding: 30px;
+	background-color: rgba(237, 92, 114, 0.6);
+	border-radius: 20px;
+	color: white;
+	font-size: 22px;
+	font-family: Dancing Script;
+
+}
