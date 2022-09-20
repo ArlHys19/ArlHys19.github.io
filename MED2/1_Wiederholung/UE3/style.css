@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+	font-family: Roboto;
+	
+}
+
+#Green {
+	width: 200px;
+	background-color: lightgreen;
+	height: 100px;
+}
+
+
+#Orange {
+
+     height: 70px;
+     background-color: orange;
+
+}
+
+#Red {
+	width: 50px;
+	background-color: sandybrown;
+	height: 700px;
+}

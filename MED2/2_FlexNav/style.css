@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: lightgray;
+
+}
+
+body {
+	margin: 0;
+	background-color: darkgray;
+	font-family: Calibri, sans-serif;
+
+}
+
+nav img {
+	height: 160px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	list-style: none;
+}
+ 
+
+ nav a {
+ 	text-decoration: none;
+ 	font-size: 22px;
+ 	color: white;
+ 	background-color: lightcoral;
+    padding: 27px;
+ 	margin: 17px;
+ 	border-radius: 35px;
+ 	text-transform: uppercase;
+
+ 	
+ }
+
+nav ul a:hover {
+	background-color: darkgray;
+}
