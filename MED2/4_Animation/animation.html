@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+    <style type="text/css">
+    	.big {
+    	    top: 200px;
+    		width: 300px;
+    		background-color: skyblue;
+    		height: 300px;
+    	}
+
+
+    	.small {
+    		width: 50%;
+    		height: 50%;
+    		background-color: red;
+    		/*Animation startet automatisch (ohne hover);*/
+    		animation-name: move;
+        	animation-duration: 2s;
+        	/*Zustand des Elements nach der Animation 
+        	forwards: Element bleibt an Endposition*/
+        	animation-fill-mode: forwards;
+        	/*Gibt an, in welche Richtung die Bewegung verläuft.
+        	alternate: Animation wird 2x ausgeführt;*/
+            animation-direction: alternate;
+            /*Gibt an, wie oft eine Animation ausgeführt wird.*/
+            animation-iteration-count: infinite;
+            
+
+
+
+
+    	}
+
+
+        .big:hover .small {
+        	animation-play-state: paused;
+        	}
+
+
+
+       @keyframes move {
+         0% {transform: translate(0);
+         	background-color: red;}
+         33% {transform: translateY(100%);
+         	background-color: yellow;}
+         66% {transform: translateX(100%) translateY(100%);
+         	background-color: orange;}
+
+
+
+
+         100% {transform: translateX(100%);
+         	background-color: darkred;}
+       
+
+
+
+       }
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+	<h1>Animation</h1>
+	<p>An animation lets an element gradually change from one style to another. You can change as many CSS properties you want, as many times as you want, as many times as you ant. To use CSS animation, you must first specify some keyframes for the animation. </p>
+
+	<div class="big">
+		<div class="small"></div>
+
+
+	</div>
+
+</body>
+</html>
