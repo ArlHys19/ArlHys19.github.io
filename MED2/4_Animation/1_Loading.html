@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loading</title>
+
+<style type="text/css">
+	
+	.container {
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+
+
+	.ball{
+		margin: 10px;
+		width: 22px;
+		height: 22px;
+        border-radius: 50%;
+        animation: bounce 2s;
+        animation-iteration-count: infinite;
+		
+
+	}
+
+
+    .blue{
+       background-color: blue;
+
+    }
+
+
+     .yellow{
+       background-color: orange;
+       animation-delay: 0.25s;
+
+    }
+
+     .green{
+       background-color: green;
+        animation-delay: 0.75s;
+
+
+    }
+
+     .red{
+       background-color: red;
+        animation-delay: 0.5s;
+
+
+    }
+
+     .text {
+       letter-spacing: 5px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       animation: text 3s;
+       animation-iteration-count: infinite;
+
+     }
+
+
+@keyframes bounce {
+  50% {transform: translateY(25px);
+         	}
+   
+     
+           
+}
+
+@keyframes text {
+ 0% {opacity:100% ;}
+ 100% {opacity: 0%;}
+
+}
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+  <div class="container">
+   <div class="blue ball"></div>
+   <div class="yellow ball"></div>
+   <div class="red ball"></div>
+   <div class="green ball"></div>
+  
+</div>
+<div class="text">Loading ...</div>
+
+</body>
+</html>
